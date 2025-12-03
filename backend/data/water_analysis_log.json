@@ -1,0 +1,133 @@
+{
+    "analysis": [
+        {
+            "timestamp": "2025-11-30 17:21",
+            "turbidity": 5.0,
+            "pH": 7.0,
+            "tds": 300.0,
+            "temperature": 25.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 17:38",
+            "date": "2025-11-30 17:38",
+            "turbidity": 8.0,
+            "pH": 7.2,
+            "tds": 350.0,
+            "temperature": 24.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 17:40",
+            "date": "2025-11-30 17:40",
+            "turbidity": 45.0,
+            "pH": 6.4,
+            "tds": 800.0,
+            "temperature": 30.0,
+            "quality_level": "Medium",
+            "recommendation": "Water quality is moderate. Basic filtration is recommended before reuse for cleaning or irrigation."
+        },
+        {
+            "timestamp": "2025-11-30 18:41",
+            "date": "2025-11-30 18:41",
+            "turbidity": 5.0,
+            "pH": 7.0,
+            "tds": 320.0,
+            "temperature": 24.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 19:02",
+            "date": "2025-11-30 19:02",
+            "turbidity": 5.0,
+            "pH": 7.0,
+            "tds": 300.0,
+            "temperature": 27.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 21:12",
+            "date": "2025-11-30 21:12",
+            "turbidity": 1.0,
+            "pH": 1.0,
+            "tds": 1.0,
+            "temperature": 1.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 21:13",
+            "date": "2025-11-30 21:13",
+            "turbidity": 50.0,
+            "pH": 14.0,
+            "tds": 1000.0,
+            "temperature": 40.0,
+            "quality_level": "Medium",
+            "recommendation": "Water quality is moderate. Basic filtration is recommended before reuse for cleaning or irrigation."
+        },
+        {
+            "timestamp": "2025-11-30 21:13",
+            "date": "2025-11-30 21:13",
+            "turbidity": 2.0,
+            "pH": 14.0,
+            "tds": 1000.0,
+            "temperature": 40.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 21:14",
+            "date": "2025-11-30 21:14",
+            "turbidity": 50.0,
+            "pH": 2.0,
+            "tds": 1000.0,
+            "temperature": 40.0,
+            "quality_level": "Low",
+            "recommendation": "Water quality is low. Treatment (sedimentation + filtration) is required before reuse."
+        },
+        {
+            "timestamp": "2025-11-30 21:14",
+            "date": "2025-11-30 21:14",
+            "turbidity": 50.0,
+            "pH": 2.0,
+            "tds": 1000.0,
+            "temperature": 25.0,
+            "quality_level": "Low",
+            "recommendation": "Water quality is low. Treatment (sedimentation + filtration) is required before reuse."
+        },
+        {
+            "timestamp": "2025-11-30 21:14",
+            "date": "2025-11-30 21:14",
+            "turbidity": 50.0,
+            "pH": 7.0,
+            "tds": 1000.0,
+            "temperature": 25.0,
+            "quality_level": "Medium",
+            "recommendation": "Water quality is moderate. Basic filtration is recommended before reuse for cleaning or irrigation."
+        },
+        {
+            "timestamp": "2025-11-30 21:14",
+            "date": "2025-11-30 21:14",
+            "turbidity": 8.0,
+            "pH": 7.0,
+            "tds": 1000.0,
+            "temperature": 25.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        },
+        {
+            "timestamp": "2025-11-30 21:14",
+            "date": "2025-11-30 21:14",
+            "turbidity": 8.0,
+            "pH": 7.0,
+            "tds": 300.0,
+            "temperature": 25.0,
+            "quality_level": "High",
+            "recommendation": "Water quality is good. You can safely reuse it for gardening, toilet flushing, and general cleaning."
+        }
+    ]
+}
