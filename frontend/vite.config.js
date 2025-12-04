@@ -20,6 +20,8 @@ export default defineConfig({
     port: process.env.PORT ? parseInt(process.env.PORT) : 5173,
   },
   preview: {
-    allowedHosts: ['*']
+    allowedHosts: [
+      'recycleai-frontend.onrender.com'
+    ]
   },
 })
