@@ -119,7 +119,7 @@ export default {
     // ------------------------------- WATER QUALITY -------------------------------
     async submitQuality() {
       try {
-        const res = await axios.post("http://127.0.0.1:8000/analyze-water", this.qualityForm);
+        const res = await API.analyzeWater(this.qualityForm);
         this.analysisResult = res.data;
 
         this.qualityMsg = "Water quality analyzed successfully!";
