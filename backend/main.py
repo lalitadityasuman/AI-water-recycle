@@ -5,9 +5,12 @@ import json
 import os
 from datetime import datetime
 from ai_model import WastewaterQualityModel, generate_water_recommendation
-from dotenv import load_dotenv
 
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 app = FastAPI()
 model = WastewaterQualityModel()
