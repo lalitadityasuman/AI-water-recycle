@@ -47,14 +47,6 @@
             "kitchen_sink": 24.0,
             "total": 118.0,
             "date": "2025-11-30 19:02"
-        },
-        {
-            "shower": 23.0,
-            "washing_machine": 15.0,
-            "bathroom_sink": 35.0,
-            "kitchen_sink": 25.0,
-            "total": 98.0,
-            "date": "2025-11-30 21:12"
         }
     ]
 }

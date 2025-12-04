@@ -5,6 +5,9 @@ import json
 import os
 from datetime import datetime
 from ai_model import WastewaterQualityModel, generate_water_recommendation
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI()
 model = WastewaterQualityModel()
@@ -12,9 +15,18 @@ model = WastewaterQualityModel()
 # -------------------------------
 # CORS (Frontend at :5173)
 # -------------------------------
+frontend_url = os.getenv("FRONTEND_URL", "*")
+cors_origins = []
+
+if frontend_url == "*":
+    cors_origins = ["*"]
+else:
+    # Allow both the frontend URL and localhost for development
+    cors_origins = [frontend_url, "http://localhost:5173", "http://localhost:3000"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -1,0 +1,18 @@
+# Railway configuration for deployment
+# This file helps Railway understand your project structure
+
+services:
+  backend:
+    build:
+      context: ./backend
+    port: 8000
+    enviromentVariables:
+      - FRONTEND_URL
+      - PORT=8000
+
+  frontend:
+    build:
+      context: ./frontend
+    port: 3000
+    environmentVariables:
+      - VITE_API_URL

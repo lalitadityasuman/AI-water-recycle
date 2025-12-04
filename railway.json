@@ -1,0 +1,29 @@
+{
+  "services": {
+    "backend": {
+      "name": "recycleai-backend",
+      "dockerfile": "backend/Dockerfile",
+      "port": 8000,
+      "environmentVariables": {
+        "PORT": "8000",
+        "ENV": "production"
+      },
+      "volumes": [
+        {
+          "mountPath": "/app/data",
+          "size": "1GB"
+        }
+      ]
+    },
+    "frontend": {
+      "name": "recycleai-frontend",
+      "dockerfile": "frontend/Dockerfile",
+      "port": 3000,
+      "buildCommand": "npm run build",
+      "startCommand": "serve -s dist -l 3000",
+      "environmentVariables": {
+        "PORT": "3000"
+      }
+    }
+  }
+}
